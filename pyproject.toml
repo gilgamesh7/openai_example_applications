@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openai-example-applications"
+version = "0.1.0"
+description = "Try out the example apps from OpenAI API"
+authors = ["gilgamesh7 <felidaesrule@yahoo.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "openai_example_applications"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
